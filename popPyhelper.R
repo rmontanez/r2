@@ -40,6 +40,7 @@ windows()
 par(mar=pyramid.plot(ratio.males, ratio.females, age.labels, 
                      main = "Piramide de Poblacion", lxcol = male.color, 
                      rxcol = female.color, top.labels=c("Hombres", "Edad", "Mujeres"),
-                     gap = 1.25, show.values = TRUE))
+                     gap = 1.25, laxlab=c(0,1,2,3,4,5), raxlab=c(0,1,2,3,4,5),
+                     show.values = TRUE))
 }
 
